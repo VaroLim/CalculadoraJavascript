@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/game-comic');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    /* background-image: linear-gradient(to bottom right, rgba(255, 140, 0, 0.666), rgba(204, 0, 255, 0.375), rgba(255, 0, 0, 0.889)) */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.666), rgb(0, 0, 0), rgb(115, 255, 65))
+}
+
+.calculadora {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+div {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+table {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 255, 38);
+    border-radius: 20px;
+    border-style:double;
+    border-width: 6px;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+td {
+    background-color: rgb(0, 0, 0);
+}
+
+.number {
+    background-color: rgb(0, 0, 0);
+    color: rgb(2, 255, 255);
+}
+
+#clear {
+    color: rgb(255, 0, 0);
+}
+
+#pantallatd {
+    position:relative;
+    text-align: right;
+    width: auto;
+    padding: 15px;
+    margin: 10px;
+}
+
+#pantalla {
+    border-radius: 15px;
+    border:rgb(2, 255, 255);
+    border-width: 9px;
+    font-size: 35px;
+    box-shadow: 0 0 30px #60f2e6;
+    color: orange;
+    text-align: right;
+  }
+
+button, input {
+    display: block;
+    width: 100%;
+    border-radius: 23px;
+    background-color: rgba(0, 0, 0, 0.932);
+    color: rgb(255, 0, 238);
+    padding: 25px 35px;
+    font-family: 'GAME COMIC', sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
